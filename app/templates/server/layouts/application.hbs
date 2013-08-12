@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Salad Bootstrap Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    {{stylesheets "application"}}
+    {{stylesheets "vendor"}}
+    {{javascripts "head" }}
+
+  </head>
+  <body>
+    <section id="todoapp">
+        <header id="header">
+          <h1>Salad example</h1>
+          <input id="new-todo" placeholder="What needs to be done?" autofocus>
+        </header>
+        <section id="main">
+          {{{content}}}
+        </section>
+        <footer id="footer"></footer>
+      </section>
+      <footer id="info">
+        <p>Double-click to edit a todo</p>
+      </footer>
+  </body>
+  {{javascripts "vendor" }}
+  {{javascripts "application" }}
+
+  <script type="text/javascript">
+    $(function() {
+      window.App.start({
+        templates: JST
+      })
+    })
+  </script>
+</html>

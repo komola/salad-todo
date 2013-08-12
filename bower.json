@@ -1,0 +1,23 @@
+{
+  "name": "salad-todo",
+  "version": "0.0.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.0.0-rc1",
+    "backbone.marionette": "~1.0.4",
+    "underscore.string": "~2.3.3",
+    "handlebars": "~1.0.0"
+  },
+  "main": {
+    "bootstrap": [
+      "dist/js/bootstrap.js",
+      "dist/css/bootstrap.css"
+    ]
+  }
+}
