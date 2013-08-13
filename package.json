@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "coffee-script": "~1.6.2",
-    "salad": "~0.0.1",
+    "salad": "~0.1.0",
     "source-map-support": "~0.1.5",
     "coffee-script-mapped": "~0.1.2",
     "superagent": "~0.14.2",
